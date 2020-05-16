@@ -35,7 +35,7 @@ class NewsListAdapter: RecyclerView.Adapter<NewsListAdapter.NewsItemViewHolder>(
         private val publishedAt = view.newsPublishedAt
 
         fun bind(newsItem: NewsArticle) {
-            imageView.loadImage(newsItem.urlToImage)
+            imageView.loadImage(newsItem.url)
             author.text = newsItem.author
             title.text = newsItem.title
             publishedAt.text = newsItem.publishedAt

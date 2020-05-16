@@ -23,8 +23,7 @@
                 style="@style/NewsArticle.Image"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/image_size"
-                android:contentDescription="@string/news_image"
-                tools:src="@drawable/tools_placeholder" />
+                android:contentDescription="@string/news_image" />
 
             <TextView
                 android:id="@+id/newsAuthor"
